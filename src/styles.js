@@ -1,5 +1,10 @@
+/*Página de estilo do react formatação css
+dos elementos compostos no app.js */
+
 import styled from "styled-components";
 
+/*Criando constantes que são descritas como tag HTML
+dentro do app.js*/
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
@@ -10,6 +15,8 @@ export const Container = styled.div`
   justify-content: center;
 `;
 
+/*Criando constantes que são descritas como tag HTML
+dentro do app.js*/
 export const Content = styled.div`
     background-color: #fff;
     width: 80%;

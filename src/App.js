@@ -1,3 +1,4 @@
+/* Arquivo app.js que contém a estrutura do projeto*/
 
 import {Container, Content} from './styles';
 
