@@ -1,6 +1,6 @@
 import { ButtonContainer } from "./styles";
 
-const Button = ({label, onclick}) => {
+const ButtonYellow = ({label, onclick}) => {
   return (
     <ButtonContainer onClick={onclick}>
       {label}
@@ -8,4 +8,4 @@ const Button = ({label, onclick}) => {
   );
 }
 
-export default Button;
+export default ButtonYellow;
