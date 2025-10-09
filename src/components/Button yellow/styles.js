@@ -12,4 +12,9 @@ import styled from 'styled-components';
     border-radius: 80%;
     font-meight: 400;
     flex: 1;
+
+    cursor: pointer;
+    
+    &:hover {
+        background-color: #585858 ;
  `
