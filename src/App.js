@@ -3,13 +3,22 @@
 import ButtonYellow from './components/Button yellow';
 import Button from './components/Button';
 import Input from './components/Input';
-import {Container, Content, Row, Column} from './styles';
+import {Container, Content, Row,} from './styles';
+import { useState } from 'react';
+
+const [currentNumber, setCurrentNumber] = useState(0);
 
 function App() {
   return (
     <Container>
       <Content>
         <Input />
+        <Row>
+        <Button label="*" />
+        <Button label="/" />
+        <Button label="C" />
+        <ButtonYellow label="X"/>
+        </Row>
         <Row>
         <Button label="7" />
         <Button label="8" />

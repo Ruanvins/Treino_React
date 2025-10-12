@@ -8,7 +8,7 @@ dentro do app.js*/
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
-  background-color: #cAcAcA;
+  background-color: #4b4b4bff;
 
   display: flex;
   alin-items: center;
@@ -19,9 +19,9 @@ export const Container = styled.div`
 dentro do app.js*/
 /*criando area da calculadora*/
 export const Content = styled.div`
-    background-color: #fff;
+    background-color: #4b4b4bff;
     width: 80%;
-    min-height: 500px;
+    min-height: 350px;
     `
 
     export const Row = styled.div`
