@@ -1,10 +1,10 @@
 /*  Componente Input que contém o campo de entrada de dados da calculadora */
 import { InputContainer } from "./styles";
 
-const Input = () => {
+const Input = ({value}) => {
   return (
     <InputContainer>
-      <input disabled/>
+      <input disabled value={value} />
     </InputContainer>
   );
 }
